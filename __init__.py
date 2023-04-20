@@ -22,7 +22,7 @@ Example
 >>> # Initialize
 >>> model = PyComputation(" 2 3 4")
 >>> # Run the model
->>> model.addition()
+>>> model.add()
 
 References
 ----------
