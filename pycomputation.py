@@ -71,6 +71,11 @@ class PyComputation():
           return i
     if total > target:
       print("This number does not have a root.")
+      
+  def index_root(self):
+    num_list = self.nums.split(" ")
+    x = int(num_list[0]) 
+    return int(num_list[1])**(1/x)
     
   def absolute_value(self):
     i = int(self.nums)
@@ -94,7 +99,8 @@ class PyComputation():
     
     
     
-        
+'''        
+TEST FUNCTIONS
 
 addition = PyComputation("1 2 3")
 sub = PyComputation("24 3 1")
@@ -115,3 +121,5 @@ print(root.root())
 print(square.square_root())
 print(av.absolute_value())
 print(trig.trig())
+
+'''
